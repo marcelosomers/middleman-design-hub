@@ -1,0 +1,24 @@
+<%
+  # Get the image size
+  image = image_size(slug)
+%>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= name %></title>
+    <%= stylesheet_link_tag "devices/base" %>
+    <%= stylesheet_link_tag "devices/ipad" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+</head>
+<body>
+
+<div class="device__ipad--landscape">
+    <div class="comp" <% if image.height > 1536 %>style="overflow-y: scroll;"<% end %>>
+        <%= image_tag "comps/#{slug}.jpg" %>
+    </div>
+</div>
+
+</body>
+</html>

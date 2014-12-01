@@ -1,0 +1,68 @@
+/*------------------------------------*\
+    $IPAD
+\*------------------------------------*/
+@import "device-base";
+
+
+
+/**
+ * iPad
+ * width: 1024px
+ * height: 768px
+ */
+
+.device__ipad--landscape {
+    width: 1252px;
+    height: 883px;
+    padding: 57px 114px;
+    background-image: url('/images/ipad_air_landscape.png');
+    background-size: 1252px 883px;
+
+    @extend %device-base;
+
+    .comp {
+        width: 1024px;
+        height: 768px;
+
+        img {
+            width: 1024px;
+        }
+    }
+}
+
+@media screen and (max-device-width: 1024px) {
+    .device__ipad--landscape {
+        width: 1024px;
+        height: auto;
+        padding: 0;
+        background: none;
+    }
+}
+
+.device__ipad--portrait {
+    width: 883px;
+    height: 1252px;
+    padding: 114px 57px;
+    background-image: url('/images/ipad_air_portrait.png');
+    background-size: 883px 1252px;
+
+    @extend %device-base;
+
+    .comp {
+        width: 768px;
+        height: 1024px;
+
+        img {
+            width: 768px;
+        }
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .device__ipad--portrait {
+        width: 768;
+        height: auto;
+        padding: 0;
+        background: none;
+    }
+}

@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    $DEVICEBASE
+\*------------------------------------*/
+/**
+ * These are the base styles shared across devices
+ * The %device-base class should be extended
+ */
+
+%device-base {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+
+    .comp {
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+}

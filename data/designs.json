@@ -1,0 +1,52 @@
+[
+    {
+        "name": "iPhone 6 Portrait",
+        "slug": "iphone6-portrait",
+        "template": "iphone6-portrait"
+    },
+    {
+        "name": "iPhone 6 Portrait Tall",
+        "slug": "iphone6-portrait-tall",
+        "template": "iphone6-portrait"
+    },
+    {
+        "name": "iPhone 6 Landscape",
+        "slug": "iphone6-landscape",
+        "template": "iphone6-landscape"
+    },
+    {
+        "name": "iPhone 6 Landscape Tall",
+        "slug": "iphone6-landscape-tall",
+        "template": "iphone6-landscape"
+    },
+    {
+        "name": "iPad Landscape Design",
+        "slug": "ipad-landscape",
+        "template": "ipad-air-landscape"
+    },
+    {
+        "name": "iPad Landscape Tall",
+        "slug": "ipad-landscape-tall",
+        "template": "ipad-air-landscape"
+    },
+    {
+        "name": "iPad Portrait Design",
+        "slug": "ipad-portrait",
+        "template": "ipad-air-portrait"
+    },
+    {
+        "name": "iPad Portrait Tall",
+        "slug": "ipad-portrait-tall",
+        "template": "ipad-air-portrait"
+    },
+    {
+        "name": "Full Screen - Left Aligned",
+        "slug": "full-left",
+        "template": "full-left"
+    },
+    {
+        "name": "Full Screen - Center Aligned",
+        "slug": "full-center",
+        "template": "full-center"
+    }
+]

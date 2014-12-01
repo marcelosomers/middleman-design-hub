@@ -1,0 +1,9 @@
+---
+title: Middleman Design Hub
+---
+
+<ul>
+    <% data.designs.each do |design| %>
+    <li><%= link_to design.name, "design/#{design.slug}.html" %></li>
+    <% end %>
+</ul>

@@ -1,0 +1,18 @@
+<%
+  # Get the image size
+  image = image_size(slug)
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= name %></title>
+    <%= stylesheet_link_tag "devices/base" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+</head>
+<body>
+
+    <div style="background-image:url('<%= http_prefix %>images/comps/<%= slug %>.jpg'); width: <%= image.width %>px; height: <%= image.height %>px; background-position: top center; width:100%;"></div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*------------------------------------*\
+    $IPHONE
+\*------------------------------------*/
+@import "device-base";
+
+
+
+/**
+ * iPhone 6 Portrait
+ * Width: 375px
+ * Height: 1334px
+ */
+.device__iphone6--portrait {
+    width: 432px;
+    height: 882px;
+    padding: 107px 28px;
+    background-image: image-url('iphone6_portrait.png');
+    background-size: 432px 882px;
+
+    @extend %device-base;
+
+    .comp {
+        width: 375px;
+        height: 667px;
+
+        img {
+            width: 375px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .device__iphone6 {
+        width: 375px;
+        height: auto;
+        padding: 0;
+        background: none;
+    }
+}
+
+
+
+/**
+ * iPhone 6 Landscape
+ * Width: 375px
+ * Height: 1334px
+ */
+.device__iphone6--landscape {
+    width: 882px;
+    height: 432px;
+    margin-top: 40px;
+    padding: 28px 107px;
+    background-image: image-url('iphone6_landscape.png');
+    background-size: 882px 432px;
+
+    @extend %device-base;
+
+    .comp {
+        width: 667px;
+        height: 375px;
+
+        img {
+            width: 667px;
+        }
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .device__iphone6 {
+        width: 667px;
+        height: auto;
+        padding: 0;
+        background: none;
+    }
+}
