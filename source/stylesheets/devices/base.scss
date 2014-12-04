@@ -7,7 +7,6 @@
 
 
 
-
 /**
  * Resetting Some Elements
  */
@@ -31,24 +30,10 @@ body {
 
 
 
-
-
-/**
- * Box Sizing
- */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
-
-
 /**
  * Page Style
  */
 body {
     background-color: #3b3b3b;
+    text-align: center;
 }

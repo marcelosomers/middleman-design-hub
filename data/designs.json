@@ -2,7 +2,8 @@
     {
         "name": "iPhone 6 Portrait",
         "slug": "iphone6-portrait",
-        "template": "iphone6-portrait"
+        "template": "iphone6-portrait",
+        "color": "white"
     },
     {
         "name": "iPhone 6 Portrait Tall",
