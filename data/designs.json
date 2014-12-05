@@ -25,6 +25,31 @@
         "orientation": "landscape"
     },
     {
+        "name": "iPhone 6 Plus Portrait",
+        "slug": "iphone6plus-portrait",
+        "template": "iphone6plus",
+        "color": "white",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 6 Plus Portrait Tall",
+        "slug": "iphone6plus-portrait-tall",
+        "template": "iphone6plus",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 6 Plus Landscape",
+        "slug": "iphone6plus-landscape",
+        "template": "iphone6plus",
+        "orientation": "landscape"
+    },
+    {
+        "name": "iPhone 6 Plus Landscape Tall",
+        "slug": "iphone6plus-landscape-tall",
+        "template": "iphone6plus",
+        "orientation": "landscape"
+    },
+    {
         "name": "iPad Landscape Design",
         "slug": "ipad-landscape",
         "template": "ipad",

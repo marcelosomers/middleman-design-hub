@@ -395,6 +395,8 @@
         -webkit-box-shadow:inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
         box-shadow:inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
 
+        @include device-clear(414px);
+
         &:before{
             width: calc(100% - 12px);
             height: calc(100% - 12px);
@@ -620,6 +622,8 @@
             padding: 26px 112px;
             height: 414px;
             width: 736px;
+
+            @include device-clear(736px);
 
             .sleep{
                 top: 100%;

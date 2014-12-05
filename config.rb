@@ -34,6 +34,8 @@ data.designs.each do |design|
 
   when "iphone6"
     proxy "/design/#{design.slug}.html", "/devices/iphone6.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
+  when "iphone6plus"
+    proxy "/design/#{design.slug}.html", "/devices/iphone6plus.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
   when "ipad"
     proxy "/design/#{design.slug}.html", "/devices/ipad.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
   when "full"
