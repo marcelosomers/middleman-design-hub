@@ -32,6 +32,9 @@
 data.designs.each do |design|
   case design.template
 
+
+  when "iphone4s"
+    proxy "/design/#{design.slug}.html", "/devices/iphone4s.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
   when "iphone5s"
     proxy "/design/#{design.slug}.html", "/devices/iphone5s.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
   when "iphone5c"

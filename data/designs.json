@@ -1,5 +1,33 @@
 [
     {
+        "name": "iPhone 4s Portrait",
+        "slug": "iphone4s-portrait",
+        "template": "iphone4s",
+        "color": "white",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 4s Portrait Tall",
+        "slug": "iphone4s-portrait-tall",
+        "template": "iphone4s",
+        "color": "black",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 4s Landscape",
+        "slug": "iphone4s-landscape",
+        "template": "iphone4s",
+        "color": "gold",
+        "orientation": "landscape"
+    },
+    {
+        "name": "iPhone 4s Landscape Tall",
+        "slug": "iphone4s-landscape-tall",
+        "template": "iphone4s",
+        "color": "white",
+        "orientation": "landscape"
+    },
+    {
         "name": "iPhone 5s Portrait",
         "slug": "iphone5s-portrait",
         "template": "iphone5s",
