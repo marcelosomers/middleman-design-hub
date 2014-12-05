@@ -1,0 +1,23 @@
+<%
+  # Get the image size
+  image = image_size(slug)
+
+  # Hack to center the design if needed
+  if orientation == 'center'
+    center_background = " background-position: top center;"
+  end
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= name %></title>
+    <%= stylesheet_link_tag "devices/base" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+</head>
+<body>
+
+    <div style="background-image:url('<%= http_prefix %>images/comps/<%= slug %>.jpg'); width: <%= image.width %>px; height: <%= image.height %>px; width: 100%;<%= center_background %>"></div>
+
+</body>
+</html>

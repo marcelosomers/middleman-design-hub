@@ -1,6 +1,13 @@
 <%
   # Get the image size
   image = image_size(slug)
+
+  # Define the orientation height
+  if orientation == "portrait"
+    scroll_height = 1334
+  elsif orientation == "landscape"
+    scroll_height = 750
+  end
 %>
 
 
@@ -14,14 +21,14 @@
 </head>
 <body>
 
-<div class="marvel-device iphone6 <%= color %> landscape">
+<div class="marvel-device iphone6 <%= color %> <%= orientation %>">
     <div class="top-bar"></div>
     <div class="sleep"></div>
     <div class="volume"></div>
     <div class="camera"></div>
     <div class="sensor"></div>
     <div class="speaker"></div>
-    <div class="screen" <% if image.height > 1334 %>style="overflow-y: scroll;"<% end %>>
+    <div class="screen" <% if image.height > scroll_height %>style="overflow-y: scroll;"<% end %>>
         <%= image_tag "comps/#{slug}.jpg" %>
     </div>
     <div class="home"></div>

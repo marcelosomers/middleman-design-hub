@@ -32,18 +32,14 @@
 data.designs.each do |design|
   case design.template
 
-  when "iphone6-portrait"
-    proxy "/design/#{design.slug}.html", "/devices/iphone6_portrait.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'] }, :ignore => true
-  when "iphone6-landscape"
-    proxy "/design/#{design.slug}.html", "/devices/iphone6_landscape.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'] }, :ignore => true
-  when "ipad-air-landscape"
-    proxy "/design/#{design.slug}.html", "/devices/ipad_air_landscape.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'] }, :ignore => true
-  when "ipad-air-portrait"
-    proxy "/design/#{design.slug}.html", "/devices/ipad_air_portrait.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'] }, :ignore => true
-  when "full-left"
-    proxy "/design/#{design.slug}.html", "/devices/full-left.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'] }, :ignore => true
+  when "iphone6"
+    proxy "/design/#{design.slug}.html", "/devices/iphone6.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
+  when "ipad"
+    proxy "/design/#{design.slug}.html", "/devices/ipad.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
+  when "full"
+    proxy "/design/#{design.slug}.html", "/devices/full.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
   when "full-center"
-    proxy "/design/#{design.slug}.html", "/devices/full-center.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'] }, :ignore => true
+    proxy "/design/#{design.slug}.html", "/devices/full-center.html", :layout => false, :locals => { :slug => design['slug'], :name => design['name'], :color => design['color'], :orientation => design['orientation'] }, :ignore => true
   end
 end
 
