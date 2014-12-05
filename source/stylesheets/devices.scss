@@ -706,8 +706,10 @@
         padding: 105px 22px;
         background: #2c2b2c;
         width: 320px;
-        height: 568px;
+        height: 585px;
         border-radius: 50px;
+
+        @include device-clear(320px);
 
         &:before{
             width: calc(100% - 8px);
@@ -815,7 +817,9 @@
         &.landscape{
             padding: 22px 105px;
             height: 320px;
-            width: 568px;
+            width: 585px;
+
+            @include device-clear(585px);
 
             .sleep{
                 right: -4px;

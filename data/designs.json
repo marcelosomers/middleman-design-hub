@@ -1,5 +1,61 @@
 [
     {
+        "name": "iPhone 5s Portrait",
+        "slug": "iphone5s-portrait",
+        "template": "iphone5s",
+        "color": "white",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 5s Portrait Tall",
+        "slug": "iphone5s-portrait-tall",
+        "template": "iphone5s",
+        "color": "black",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 5s Landscape",
+        "slug": "iphone5s-landscape",
+        "template": "iphone5s",
+        "color": "gold",
+        "orientation": "landscape"
+    },
+    {
+        "name": "iPhone 5s Landscape Tall",
+        "slug": "iphone5s-landscape-tall",
+        "template": "iphone5s",
+        "color": "white",
+        "orientation": "landscape"
+    },
+    {
+        "name": "iPhone 5c Portrait",
+        "slug": "iphone5c-portrait",
+        "template": "iphone5c",
+        "color": "red",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 5c Portrait Tall",
+        "slug": "iphone5c-portrait-tall",
+        "template": "iphone5c",
+        "color": "yellow",
+        "orientation": "portrait"
+    },
+    {
+        "name": "iPhone 5c Landscape",
+        "slug": "iphone5c-landscape",
+        "template": "iphone5c",
+        "color": "green",
+        "orientation": "landscape"
+    },
+    {
+        "name": "iPhone 5c Landscape Tall",
+        "slug": "iphone5c-landscape-tall",
+        "template": "iphone5c",
+        "color": "blue",
+        "orientation": "landscape"
+    },
+    {
         "name": "iPhone 6 Portrait",
         "slug": "iphone6-portrait",
         "template": "iphone6",
