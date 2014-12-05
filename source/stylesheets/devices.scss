@@ -27,6 +27,7 @@
  }
 
 .marvel-device{
+    margin-top: 2%;
     display: inline-block;
     position: relative;
 
@@ -72,7 +73,6 @@
     &.iphone6{
         width: 375px;
         height: 667px;
-        margin-top: 5%;
         padding: 105px 24px;
         background: #d9dbdc;
         border-radius: 56px;
@@ -306,6 +306,8 @@
             padding: 24px 105px;
             height: 375px;
             width: 667px;
+
+            @include device-clear(667px);
 
             .sleep{
                 top: 100%;
@@ -2132,11 +2134,13 @@
     }
 
     &.ipad{
-        width: 576px;
-        height: 768px;
+        width: 768px;
+        height: 1024px;
         padding: 90px 25px;
         background: #242324;
         border-radius: 44px;
+
+        @include device-clear(768px);
 
         &:before{
             width: calc(100% - 8px);
@@ -2191,9 +2195,11 @@
         }
 
         &.landscape{
-            height: 576px;
-            width: 768px;
+            height: 768px;
+            width: 1024px;
             padding: 25px 90px;
+
+            @include device-clear(1024px);
 
             .camera {
                 left: calc(100% - 44px);
