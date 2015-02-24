@@ -134,6 +134,30 @@
         "orientation": "landscape"
     },
     {
+        "name": "Nexus 5 Portrait",
+        "slug": "nexus5-portrait",
+        "template": "nexus5",
+        "orientation": "portrait"
+    },
+    {
+        "name": "Nexus 5 Portrait Tall",
+        "slug": "nexus5-portrait-tall",
+        "template": "nexus5",
+        "orientation": "portrait"
+    },
+    {
+        "name": "Nexus 5 Landscape",
+        "slug": "nexus5-landscape",
+        "template": "nexus5",
+        "orientation": "landscape"
+    },
+    {
+        "name": "Nexus 5 Landscape Tall",
+        "slug": "nexus5-landscape-tall",
+        "template": "nexus5",
+        "orientation": "landscape"
+    },
+    {
         "name": "iPad Landscape Design",
         "slug": "ipad-landscape",
         "template": "ipad",

@@ -1314,10 +1314,12 @@
 
     &.nexus5{
         padding: 50px 15px 50px 15px;
-        width: 320px;
-        height: 568px;
+        width: 360px;
+        height: 640px;
         background: #1e1e1e;
         border-radius: 20px;
+
+        @include device-clear(360px);
 
         &:before{
             -webkit-border-radius: 600px / 50px;
@@ -1419,8 +1421,10 @@
 
         &.landscape{
             padding: 15px 50px 15px 50px;
-            height: 320px;
-            width: 568px;
+            height: 360px;
+            width: 640px;
+
+            @include device-clear(640px);
 
             &:before {
                 width: 103.1%;
