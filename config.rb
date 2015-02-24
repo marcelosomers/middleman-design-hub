@@ -54,6 +54,10 @@ data.designs.each do |design|
   end
 end
 
+# Ignore the device templates folder so it doesn't render the pages
+ignore 'devices/*'
+
+
 ###
 # Helpers
 ###
